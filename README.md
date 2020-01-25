@@ -7,6 +7,7 @@ It does so by iteratively marking as composite (i.e., not prime) the multiples o
 This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime.
 
 Algorithm Sieve of Eratosthenes:
+    
     input: an integer n > 1.
     output: all prime numbers from 2 through n.
 
@@ -19,3 +20,4 @@ Algorithm Sieve of Eratosthenes:
                 A[j] := false
 
     return all i such that A[i] is true.
+
