@@ -1,6 +1,8 @@
 # sieveOfEratosthenes_Visualization
 Visualizer for Sieve of Eratosthenes (Prime Number Generator)
 
+![day26_3](https://user-images.githubusercontent.com/59413787/73128209-f9de8700-3ff1-11ea-895e-e2009c4f5b10.png)
+
 In mathematics, the Sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit.
 
 It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number, 2. The multiples of a given prime are generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime.
